@@ -1,0 +1,466 @@
+{
+  "gasConsumptionMSGIn": {
+    "schemes": [
+      {
+        "verb": "liegen",
+        "probability": 50,
+        "subj": [
+          "Kraftstoffverbrauch",
+          "Gesamtverbrauch",
+          "Verbrauch"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+          "bei"
+        ],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "benötigen",
+        "probability": 47,
+        "subj": [
+          "%car%",
+          "Motor"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "betragen",
+        "probability": 28,
+        "subj": [
+          "Kraftstoffverbrauch",
+          "Gesamtverbrauch",
+          "Verbrauch"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [
+          "des %car%"
+        ],
+        "objPremod": [],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      }
+    ]
+  },
+  "gasConsumptionMSGAll": {
+    "schemes": [
+      {
+        "verb": "liegen",
+        "probability": 50,
+        "subj": [
+          "Kraftstoffverbrauch",
+          "Gesamtverbrauch",
+          "Verbrauch"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+          "bei"
+        ],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "benötigen",
+        "probability": 47,
+        "subj": [
+          "%car%",
+          "Motor"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "betragen",
+        "probability": 28,
+        "subj": [
+          "Kraftstoffverbrauch",
+          "Gesamtverbrauch",
+          "Verbrauch"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [
+          "des %car%"
+        ],
+        "objPremod": [],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      }
+    ]
+  },
+  "gasConsumptionMSGOut": {
+    "schemes": [
+      {
+        "verb": "liegen",
+        "probability": 50,
+        "subj": [
+          "Kraftstoffverbrauch",
+          "Gesamtverbrauch",
+          "Verbrauch"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+          "bei"
+        ],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "benötigen",
+        "probability": 47,
+        "subj": [
+          "%car%",
+          "Motor"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "betragen",
+        "probability": 28,
+        "subj": [
+          "Kraftstoffverbrauch",
+          "Gesamtverbrauch",
+          "Verbrauch"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [
+          "des %car%"
+        ],
+        "objPremod": [],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      }
+    ]
+  },
+  "revsPerMinuteMSG": {
+    "schemes": [
+      {
+        "verb": "drehen",
+        "probability": 30,
+        "subj": [
+          "Motor"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [
+          "des %car%"
+        ],
+        "objPremod": [
+          "mit"
+        ],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "anliegen",
+        "probability": 21,
+        "subj": [
+          "Drehmoment"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+          "bei"
+        ],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      }
+    ]
+  },
+  "topSpeedMSG": {
+    "schemes": [
+      {
+        "verb": "erreichen",
+        "probability": 8,
+        "subj": [
+          "%car%"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [],
+        "objPostmod": [
+          "von %val%"
+        ],
+        "obj": [
+          "Höchstgeschwindigkeit",
+          "Spitzengeschwindigkeit",
+          "Spitzentempo",
+          "Maximaltempo"
+        ],
+        "objArt": "indef"
+      },
+      {
+        "verb": "fahren",
+        "probability": 7,
+        "subj": [
+          "%car%"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+          "mit bis zu"
+        ],
+        "objPostmod": [
+        ],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      }
+    ]
+  },
+  "accelerationMSG": {
+    "schemes": [
+      {
+        "verb": "beschleunigen",
+        "probability": 39,
+        "subj": [
+          "%car%"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+          "von 0 auf 100 km/h in"
+        ],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "schaffen",
+        "probability": 7,
+        "subj": [
+          "%car%"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [],
+        "objPostmod": [
+          "von 0 auf 100 km/h in %val%"
+        ],
+        "obj": [
+          "es"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "brauchen",
+        "probability": 20,
+        "subj": [
+          "%car%"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [],
+        "objPostmod": [
+          "von 0 auf 100 km/h"
+        ],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      }
+    ]
+  },
+  "torqueMSG": {
+    "schemes": [
+      {
+        "verb": "erzeugen",
+        "probability": 17,
+        "subj": [
+          "Motor"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+        ],
+        "objPostmod": [
+          "von %val%"
+        ],
+        "obj": [
+          "maximales Drehmoment"
+        ],
+        "objArt": "indef"
+      },
+      {
+        "verb": "leisten",
+        "probability": 7,
+        "subj": [
+          "%car%"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+          "maximal %val%"
+        ],
+        "objPostmod": [
+        ],
+        "obj": [
+          "Drehmoment"
+        ],
+        "objArt": ""
+      }
+    ]
+  },
+  "horsePowerMSG": {
+    "schemes": [
+      {
+        "verb": "leisten",
+        "probability": 36,
+        "subj": [
+          "Motor"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+        ],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "haben",
+        "probability": 26,
+        "subj": [
+          "%car%"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [],
+        "objPostmod": [
+        ],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "können",
+        "probability": 14,
+        "subj": [
+          "%car%"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [],
+        "objPostmod": [
+          "vorweisen"
+        ],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      }
+    ]
+  },
+  "weightMSG": {
+    "schemes": [
+      {
+        "verb": "wiegen",
+        "probability": 26,
+        "subj": [
+          "%car%"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+          "insgesamt",
+          "alles in allem"
+        ],
+        "objPostmod": [],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "bringen",
+        "probability": 18,
+        "subj": [
+          "%car%"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [],
+        "objPremod": [
+          "insgesamt",
+          "alles in allem"
+        ],
+        "objPostmod": [
+          "auf die Waage"
+        ],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      },
+      {
+        "verb": "betragen",
+        "probability": 7,
+        "subj": [
+          "Gewicht"
+        ],
+        "subjPremod": [],
+        "subjPostmod": [
+          "des %car%"
+        ],
+        "objPremod": [],
+        "objPostmod": [
+        ],
+        "obj": [
+          "%val%"
+        ],
+        "objArt": ""
+      }
+    ]
+  }
+}
